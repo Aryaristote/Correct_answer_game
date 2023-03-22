@@ -1,7 +1,7 @@
 <template>
   <main><br><br>
     <div class="container">
-      <small>Select the correct answer: </small><br><br>
+      <small>Select your correct answer: </small><br><br>
       <div class="jumbotron">
         <h1>Your result: 
           <span class="badge badge-success">{{ numCorrect }}</span> | 
@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import _ from "lodash"
+import _ from "lodash" 
 
 export default {
   props: {
